@@ -12,6 +12,7 @@ import UseImperativeEffect from "./Components/UseImerativeHandle/UseImperativeEf
 import UseContext from "./Components/UseContext/UseContext";
 import UseMemoTutorial from "./Components/UseMemo";
 import UseCallBackTutorial from "./Components/UseCallBack/UseCallBack";
+import ReactSelectAll from "./Components/ReactSelectAll/ReactSelectAll";
 // export const AppContext = createContext(null);
 function App() {
   // const [name, setName] = useState("");
@@ -41,6 +42,10 @@ function App() {
             <Route
               path="/useCallBack"
               element={<UseCallBackTutorial />}
+            />
+             <Route
+              path="/react-select-all"
+              element={<ReactSelectAll />}
             />
             <Route path="/tic-tac-toe" element={<TicTacToe />} />
           </Routes>
